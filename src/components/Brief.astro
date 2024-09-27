@@ -1,176 +1,184 @@
 ---
-import VectorOne from '../assets/ui-one.svg'
-import VectorTwo from '../assets/ui-two.svg'
-import VectorThree from '../assets/ui-three.svg'
+import VectorOne from "../assets/3dblockchain.png";
+import VectorTwo from "../assets/3dstatistic.png";
+import VectorThree from "../assets/3daudit.png";
 
-import Check from '../assets/check.svg'
-import Bolt from '../assets/bolt.svg'
-import Money from '../assets/money.svg'
-import Wallet from '../assets/wallet.svg'
-import Secure from '../assets/lock.svg'
-
+import Check from "../assets/check.svg";
+import Bolt from "../assets/bolt.svg";
+import Money from "../assets/money.svg";
+import Wallet from "../assets/wallet.svg";
+import Secure from "../assets/lock.svg";
 ---
 
-
 <section class="product-brief" id="features">
-    <div class="container">
+  <div class="container">
+    <!-- Feature Two -->
+    <div class="row product-brief-items">
+      <div class="brief-media center one-half column">
+        <img src={VectorTwo} class="md-width" />
+      </div>
 
+      <div class="brief-tab one-half column">
+        <h3 class="h2-title">Concentrated Liquidity</h3>
+        <p class="m-paragraph m-margin">
+          A mechanism used to improve efficiency and reduce impermanent loss,
+          Concentrated Liquidity allows liquidity providers to focus their
+          liquidity on specific price ranges.
+        </p>
 
-        <!-- Feature Two -->
-        <div class="row product-brief-items">
-            <div class="brief-media center one-half column">
-                <img src={VectorTwo} class="md-width">
+        <div class="brief-items">
+          <div class="row m-margin">
+            <div class="one-half column feature-grid">
+              <img src={Bolt} alt="Fast connect" />
+              <p class="s-paragraph">Price Range Selection.</p>
             </div>
-
-            <div class="brief-tab one-half column">
-                <h3 class="h2-title">Better, together.</h3>
-                <p class="m-paragraph m-margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
-
-                <div class="brief-items">
-                 <div class="row m-margin">
-                    <div class="one-half column feature-grid">
-                        <img src={Bolt} alt="Fast connect">
-                        <p class="s-paragraph">Lorem ipsum dolor sit amet, consectetur.</p>
-                    </div>
-                    <div class="one-half column feature-grid">
-                        <img src={Money} alt="Money transfer">
-                        <p class="s-paragraph">Lorem ipsum dolor sit amet, consectetur.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="one-half column feature-grid">
-                        <img src={Wallet} alt="Digital wallet">
-                        <p class="s-paragraph">Lorem ipsum dolor sit amet, consectetur.</p>
-                    </div>
-                    <div class="one-half column feature-grid">
-                        <img src={Secure} alt="Secure connection">
-                        <p class="s-paragraph">Lorem ipsum dolor sit amet, consectetur.</p>
-                    </div>
-                </div>
-              </div>
+            <div class="one-half column feature-grid">
+              <img src={Money} alt="Money transfer" />
+              <p class="s-paragraph">Liquidity Provision.</p>
             </div>
-        </div>
-   
-        <!-- Feature One -->
-        <div class="row product-brief-items">
-            <div class="brief-tab one-half column">
-                <h3 class="h2-title">Better, together.</h3>
-                <p class="m-paragraph m-margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
-
-
-               <div class="brief-items">
-                 <div class="row m-margin">
-                    <div class="one-half column feature-grid">
-                        <img src={Bolt} alt="Fast connect">
-                        <p class="s-paragraph">Lorem ipsum dolor sit amet, consectetur.</p>
-                    </div>
-                    <div class="one-half column feature-grid">
-                        <img src={Money} alt="Money transfer">
-                        <p class="s-paragraph">Lorem ipsum dolor sit amet, consectetur.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="one-half column feature-grid">
-                        <img src={Wallet} alt="Digital wallet">
-                        <p class="s-paragraph">Lorem ipsum dolor sit amet, consectetur.</p>
-                    </div>
-                    <div class="one-half column feature-grid">
-                        <img src={Secure} alt="Secure connection">
-                        <p class="s-paragraph">Lorem ipsum dolor sit amet, consectetur.</p>
-                    </div>
-                </div>
-              </div>
+          </div>
+          <div class="row">
+            <div class="one-half column feature-grid">
+              <img src={Wallet} alt="Digital wallet" />
+              <p class="s-paragraph">Lower Fees.</p>
             </div>
-
-            <div class="brief-media center one-half column">
-                <img src={VectorOne} class="md-width">
-            </div>
-        </div>
-
-
-
-     <!-- Feature One -->
-      <div class="row product-brief-items">
-
-        <div class="brief-media center one-half column">
-            <img src={VectorThree} class="md-width">
-        </div>
-        
-         <div class="brief-tab one-half column">
-            <h3 class="h2-title">Better, together.</h3>
-            <p class="m-paragraph m-margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
-
-
-            <div class="brief-items">
-                <div class="row m-margin">
-                <div class="one-half column feature-grid">
-                    <img src={Bolt} alt="Fast connect">
-                    <p class="s-paragraph">Lorem ipsum dolor sit amet, consectetur.</p>
-                </div>
-                <div class="one-half column feature-grid">
-                    <img src={Money} alt="Money transfer">
-                    <p class="s-paragraph">Lorem ipsum dolor sit amet, consectetur.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="one-half column feature-grid">
-                    <img src={Wallet} alt="Digital wallet">
-                    <p class="s-paragraph">Lorem ipsum dolor sit amet, consectetur.</p>
-                </div>
-                <div class="one-half column feature-grid">
-                    <img src={Secure} alt="Secure connection">
-                    <p class="s-paragraph">Lorem ipsum dolor sit amet, consectetur.</p>
-                </div>
+            <div class="one-half column feature-grid">
+              <img src={Secure} alt="Secure connection" />
+              <p class="s-paragraph">Reduced Impermanent Loss.</p>
             </div>
           </div>
         </div>
+      </div>
+    </div>
 
+    <!-- Feature One -->
+    <div class="row product-brief-items">
+      <div class="brief-tab one-half column">
+        <h3 class="h2-title">Dynamic Fees.</h3>
+        <p class="m-paragraph m-margin">
+          A mechanism used in DEXs to adjust transaction fees based on various
+          factors, such as market conditions, network congestion, and order
+          size.
+        </p>
+
+        <div class="brief-items">
+          <div class="row m-margin">
+            <div class="one-half column feature-grid">
+              <img src={Bolt} alt="Fast connect" />
+              <p class="s-paragraph">Market Volatility.</p>
+            </div>
+            <div class="one-half column feature-grid">
+              <img src={Money} alt="Money transfer" />
+              <p class="s-paragraph">Network Congestion.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="one-half column feature-grid">
+              <img src={Wallet} alt="Digital wallet" />
+              <p class="s-paragraph">Order Size.</p>
+            </div>
+            <div class="one-half column feature-grid">
+              <img src={Secure} alt="Secure connection" />
+              <p class="s-paragraph">Time of Day.</p>
+            </div>
+          </div>
+        </div>
       </div>
 
+      <div class="brief-media center one-half column">
+        <img src={VectorOne} class="md-width" />
+      </div>
     </div>
- </section>
 
+    <!-- Feature One -->
+    <div class="row product-brief-items">
+      <div class="brief-media center one-half column">
+        <img src={VectorThree} class="md-width" />
+      </div>
 
- <style lang="scss">
+      <div class="brief-tab one-half column">
+        <h3 class="h2-title">Built-in Farming.</h3>
+        <p class="m-paragraph m-margin">
+          A popular incentive mechanism used by DeFi protocols to attract
+          liquidity providers and encourage participation in the ecosystem.
+        </p>
 
-.product-brief{
-  background-color: var(--tenary);
-  .hero-brand{
-    padding-bottom: 50px;
-    .brands{
-      margin-top: 15px;
+        <div class="brief-items">
+          <div class="row m-margin">
+            <div class="one-half column feature-grid">
+              <img src={Bolt} alt="Fast connect" />
+              <p class="s-paragraph">Reward Earning.</p>
+            </div>
+            <div class="one-half column feature-grid">
+              <img src={Money} alt="Money transfer" />
+              <p class="s-paragraph">Token Distribution.</p>
+            </div>
+          </div>
+          <div class="row m-margin">
+            <div class="one-half column feature-grid">
+              <img src={Wallet} alt="Digital wallet" />
+              <p class="s-paragraph">Generates Revenue.</p>
+            </div>
+            <div class="one-half column feature-grid">
+              <img src={Secure} alt="Secure connection" />
+              <p class="s-paragraph">Encourages Community.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="one-half column feature-grid">
+              <img src={Check} alt="Digital wallet" />
+              <p class="s-paragraph">Single-Sided Farming.</p>
+            </div>
+            <div class="one-half column feature-grid">
+              <img src={Check} alt="Secure connection" />
+              <p class="s-paragraph">Multi-Token Farming.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style lang="scss">
+  .product-brief {
+    background-color: var(--tenary);
+    .hero-brand {
+      padding-bottom: 50px;
+      .brands {
+        margin-top: 15px;
+      }
     }
-  }
-  .product-brief-items{
-    margin-bottom: 100px;
-    .brief-tab{
-      padding-top: 50px;
+    .product-brief-items {
+      margin-bottom: 100px;
+      .brief-tab {
+        padding-top: 50px;
+      }
     }
-  }
 
-  .feature-grid{
-    display: flex;
-    p{
-      margin: 0 0 0 10px;
+    .feature-grid {
+      display: flex;
+      p {
+        margin: 0 0 0 10px;
+      }
+      img {
+        width: 25px;
+        margin-top: -10px;
+      }
     }
-    img{
-      width: 25px;
-      margin-top: -10px;
+
+    .brief-media {
+      height: 340px;
+      position: relative;
+      overflow: hidden;
+      background-color: #f2f5f9;
+      padding-top: 40px;
     }
-  }
 
-  .brief-media{
-    height: 340px;
-    position: relative;
-    overflow: hidden;
-    background-color: #f2f5f9;
-    padding-top: 40px;
-  }
-
-  @media (max-width:700px) {
-    .brief-tab{
+    @media (max-width: 700px) {
+      .brief-tab {
         margin-left: 20px;
+      }
     }
   }
-}
- </style>
+</style>
